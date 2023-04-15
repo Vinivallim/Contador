@@ -9,7 +9,7 @@ export default comp => {
     const dec = () => setNumero(numero - 25)
     return ( 
         <>
-            <Text>{numero}</Text>
+            <Text style={{ fontSize: 20 }}>{numero}</Text>
             <Button title=" + " onPress={inc}/>
             <Button title=" - " onPress={dec}/>
         </>

@@ -9,7 +9,7 @@ export default comp => {
     const dec = () => setNumero(numero / 2)
     return ( 
         <>
-            <Text>{numero}</Text>
+            <Text style={{ fontSize: 20 }}>{numero}</Text>
             <Button title=" *2 " onPress={inc}/>
             <Button title=" /2 " onPress={dec}/>
         </>
